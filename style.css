@@ -140,6 +140,7 @@ h3{
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
     }
     .bigbutton{
         display:flex;
@@ -170,5 +171,13 @@ h3{
         border-radius: 10px;
         border-color: #F9FAF8;
         border: 2px solid;
+      }
+      .footer{
+        width: 100%;
+        height: 100px;
+        background-color: #1F2937;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
     
