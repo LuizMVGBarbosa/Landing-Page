@@ -1,5 +1,5 @@
 body{
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     
 }
 .hero{
@@ -14,7 +14,7 @@ body{
 h1{
     color: #F9FAF8;
     font-size: 24px;
-    margin-bottom: 0%;
+    margin: 0%;
 }
 ul{
     list-style: none;
@@ -78,6 +78,7 @@ button{
     width: 600px;
     height: 250px;
     background: rgb(156, 156, 167);
+    opacity: 1.0;
     flex-shrink: 1;
     color: #F9FAF8;
 }
@@ -118,9 +119,9 @@ h3{
         background-color: #E5E7EB;
         color: #1F2937;
         font-size: 36px;
-        font-family: italic ;
+        font-style: italic;
         font-weight: lighter;
-         display: flex;
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
